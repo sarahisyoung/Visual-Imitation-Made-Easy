@@ -1,11 +1,11 @@
 # Visual Imitation Made Easy
 ### 
 
-##### [[Project Page]](https://dhiraj100892.github.io/Visual-Imitation-Made-Easy/) [[Paper]]() [[Video]]()
+##### [[Project Page]](https://dhiraj100892.github.io/Visual-Imitation-Made-Easy/) [[Paper]]() [[Video]](https://youtu.be/opizQ4bXSpk)
 Sarah Young, Dhiraj Gandhi, Shubham Tulsiani, Abhinav Gupta, Pieter Abbeel, Lerrel Pinto
 ##
 
-[Sarah Young]()<sup>1</sup>, [Dhiraj Gandhi]()<sup>2</sup>, [Shubham Tulsiani]()<sup>2</sup>, [Abhinav Gupta]()<sup>2 3</sup>, [Pieter Abbeel]()<sup>1</sup>, [Lerrel Pinto]()<sup>1 4</sup>
+Sarah Young<sup>1</sup>, Dhiraj Gandhi<sup>2</sup>, Shubham Tulsiani<sup>2</sup>, Abhinav Gupta<sup>2 3</sup>, Pieter Abbeel<sup>1</sup>, Lerrel Pinto<sup>1 4</sup>
 
 <sup>1</sup>University of California, Berkeley, <sup>2</sup>Facebook AI Research, <sup>3</sup>Carnegie Mellon University, <sup>4</sup>New York University<br/>
 
@@ -39,7 +39,7 @@ export PYTHONPATH=$PYTHONPATH:path_to_proj/
 To train with custom data, see [this](data_cleaning/README.md) for details on data processing.
 
 
-1. Download the data from dropbox by running this script. The data includes ~550 runs split into training, validation, and test data.
+1. Download the sample data from dropbox by running this script.
     ```shell
     python download_data.py 
     ```

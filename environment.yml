@@ -1,0 +1,21 @@
+#python 3
+name: trashbot
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - shapely
+  - seaborn
+  - python=3.6
+  - opencv
+  - pytorch
+  - tensorboard
+  - ipython
+  - tensorflow=1.14.0
+  - pillow=6.1
+  - torchvision
+  - pip
+  - pip:
+    - wandb
+    - wget
+prefix: /Users/sarahyoung/anaconda3/envs/trashbot
