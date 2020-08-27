@@ -12,9 +12,9 @@ def download(url, dir_path, save_dir):
 def main():
   print('Beginning file download with wget module')
   urls = [
-    ("train", "https://www.dropbox.com/s/8s7fd5ylo7979pq/train.tar.gz?dl=1"),
-    ("val", 'https://www.dropbox.com/s/co65kclf8idfr04/val.tar.gz?dl=1'),
-    ("test", 'https://www.dropbox.com/s/11yq82yp2l4mkz5/test.tar.gz?dl=1'),
+    ("train", "https://www.dropbox.com/s/9eojzne9a0jjlqx/pabti_push_train.tar.gz?dl=1"),
+    ("val", 'https://www.dropbox.com/s/c2xfig00vl9j43k/pabti_push_val.tar.gz?dl=1'),
+    ("test", 'https://www.dropbox.com/s/be1rrprn9lws75o/pabti_push_test.tar.gz?dl=1'),
   ]
   for dataset, link in urls:
     dir_path = "./push_" + dataset + ".zip"
