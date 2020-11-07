@@ -12,6 +12,11 @@ Sarah Young<sup>1</sup>, Dhiraj Gandhi<sup>2</sup>, Shubham Tulsiani<sup>2</sup>
 
 <img src="images/teaser.gif" width="400">
 
+## Data
+
+Pushing data is located here: https://www.dropbox.com/sh/8bsmnhgedeusp6m/AAB8SpCGPc483s9lYs2UG-K_a?dl=0
+Stacking data is located here: https://www.dropbox.com/sh/o626b86pdpes63o/AABdZ_QBoPmzYWXMNz0XUGFPa?dl=0
+
 
 ## Usage
 Below are example scripts for training and testing on provided sample data.
@@ -38,9 +43,9 @@ export PYTHONPATH=$PYTHONPATH:path_to_proj/
 To train with custom data, see [this](data_cleaning/README.md) for details on data processing.
 
 
-1. Download the data (~45 GB) from dropbox by running this script. Feel free to comment out training/validation URL to download just a small sample of the data. 
+1. Download the data (~45 GB) from dropbox by running this script. Feel free to comment out training/validation URL in the script to download just a small sample of the data. 
     ```shell
-    python download_data.py 
+    python download_data.py --task push
     ```
 
 2. To train:

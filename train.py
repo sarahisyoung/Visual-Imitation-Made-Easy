@@ -87,6 +87,10 @@ def main():
       params
     )
   elif args.task == "stack":
+    grip_model = GripModel(params).to(device)
+    dct = torch.load(params['grip_file'], map_location=torch.device(device)).state_dict()
+    grip_model.load_state_dict(dct)
+    grip_model.eval()
     trainer = StackTrainer(
       model,
       params
